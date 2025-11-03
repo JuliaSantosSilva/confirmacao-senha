@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MACCA - A história de Brendan Eich</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background">
+    <header>
+        <br><br>
+    <h1>Bem-vindo ao</h1>
+        <img src="sobreposição.png">
+    <h3>2° EMCB</h3>
+    </header>
+    <main>
+        <h1>Digite a senha:</h1>
+        <br>
+        <div class="codigo">
+            <input type="text" id="digito1" maxlength="1" class="input-codigo" onkeyup="validarDigito(0)">
+            <input type="text" id="digito2" maxlength="1" class="input-codigo" onkeyup="validarDigito(1)">
+            <input type="text" id="digito3" maxlength="1" class="input-codigo" onkeyup="validarDigito(2)">
+        </div>
+        <br>
+       <a href="#" onclick="confirmarSenha(); return false;" class="botao-link">Confirmar senha</a> 
+        <br>
+    </div>
+    </main>
+    <script src="arquivo.js"></script>
+</body>
+</html>
